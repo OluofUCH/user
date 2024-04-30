@@ -1,0 +1,25 @@
+{
+
+ "qs":[
+    {
+        "question":"What is the biggest man?",
+        "options":["david, adam, nahum, jesse"],
+        "correct":"david"
+    },
+    {
+        "question":"What is the biggest man?",
+        "options":["david, adam, nahum, jesse"],
+        "correct":"david"
+    },
+    {
+        "question":"What is the biggest man?",
+        "options":["david, adam, nahum, jesse"],
+        "correct":"david"
+    },
+    {
+        "question":"What is the biggest man?",
+        "options":["david, adam, nahum, jesse"],
+        "correct":"david"
+    }
+]
+}

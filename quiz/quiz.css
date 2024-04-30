@@ -1,0 +1,102 @@
+
+body{
+    margin: 0;
+    background-image: url('flex3b.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+#box{
+height: 500px;
+width: 500px;
+background-color: rgb(134, 0, 237);
+box-shadow: 10px 10px 10px 10px black;
+margin-top: 10px;
+border-radius: 30px 30px 30px 30px;
+display: none;
+}
+#email{
+    width: 80%;
+    height: 10%;
+    background-color: white;
+    border: solid black 2px;
+    border-radius: 20px 20px 20px 20px;
+    margin: 20px;
+}
+#name{
+    width: 80%;
+    height: 10%;
+    background-color: white;
+    border: solid black 2px;
+    border-radius: 20px 20px 20px 20px;
+    margin: 20px;
+}
+#btn{
+    width: 40%;
+    height: 10%;
+    background-color: white;
+    border: solid black 2px;
+    border-radius: 20px 20px 20px 20px;
+    margin: 20px;
+
+}
+#bo{
+    height: 300px;
+width: 300px;
+background-color:rgb(134, 0, 237);
+
+box-shadow: 10px 10px 10px 10px black;
+margin-top: 50px;
+border-radius: 30px 30px 30px 30px;
+}
+h1{
+    font-size: xx-large;
+    color: white;
+}
+header{
+    background-color: white;
+    height: 70px;
+    width: 100%;
+}
+#nt{
+color: black;
+padding: 10px;
+}
+#quiz{
+    display: none;
+}
+#courses{
+    display: flex;
+    margin-top: 70px;
+    gap: 20px;
+    margin-left: 180px;
+}
+#anatomy{
+    background-color: white;
+    box-shadow: 20px 20px 20px 20px;
+    border-radius: 20px 20px 20px 20px;
+    height: 300px;
+    width: 300px;
+} 
+h2{
+    text-align: center;
+}
+#anat{
+    font-size: xx-large;
+}
+#p{
+    background-color: rgb(134, 0, 237);
+    width: 100%;
+    color: white;
+
+}
+#quiz0{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    box-shadow: 20px 20px 20px 20px;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 20px;
+}
+#quiz2{
+    display: none;
+}

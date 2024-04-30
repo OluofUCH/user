@@ -1,0 +1,165 @@
+body{
+    background-image: url('flex3b.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:  auto;
+    height: 100%;
+    width: 100%;
+}
+header{
+    background-color: rgb(45, 42, 65);
+    height: 70px;
+    width: 100%;
+    display: flex;
+}
+#head4{
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    width: 100%;
+    color: rgb(45, 42, 65);
+}
+#head1{
+    display: flex;
+    width: 30%;
+    height: 100%;
+    margin: 5px;
+}
+#head2{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+}
+#head3{
+    display: flex;
+    width: 30%;
+    height: 100%;
+}
+#hes{
+    background-color: white;
+    color: rgb(45, 42, 65);
+    font-size: medium;
+    border-radius: 15px 15px 15px 15px;
+    height: 50%;
+    width: 30%;
+    margin: 12px;
+}
+#btn{
+    background-color: white;
+    color: rgb(45, 42, 65);
+    font-size: medium;
+    border-radius: 15px 15px 15px 15px;
+    height: 50%;
+    width: 30%;
+    margin: 12px;
+}
+h1{
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2{
+    color: rgb(45, 42, 65);
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 20px;
+}
+h3{
+    color: rgb(45, 42, 65);
+    font-size: larger;
+    font-weight: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 70px;
+    margin-left: -210px;
+}
+#int{
+    background-color: rgb(45, 42, 65);
+    height: 400px;
+    width: 500px;
+}
+#btn2{
+    background-color: rgb(45, 42, 65);
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    border-radius: 15px 15px 15px 15px;
+    height: 50px;
+    width: 80px;
+    margin-top: 150px;
+    margin-left: 50px;
+    cursor: pointer;
+    border: none;
+}
+#btn2:hover{
+    height: 60px;
+    width: 85px;
+    transition: ease-in 1s;
+    transition: ease-out 1s;
+}
+
+@media only screen and (max-width: 900px) {
+    body{
+        background-image: url('flex3b.jpg');
+        background-repeat: no-repeat;
+        background-size: auto;
+        margin:  auto;
+        height: 100%;
+        width: 100%;
+    }
+header{
+    background-color: rgb(45, 42, 65);
+    height: 70px;
+    width: 100%;
+    display: flex;
+}
+#head1{
+    display: none;
+}
+#head2{
+    display: flex;
+    margin-left: 130px;
+}
+#head3{
+    display: none;
+}
+#int{
+    background-color: rgb(45, 42, 65);
+    height: 30px;
+    width: 100%;
+}
+#head4{
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 100%;
+    color: rgb(45, 42, 65);
+}
+h3{
+    color: rgb(45, 42, 65);
+    font-size:small;
+    font-weight: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 70px;
+    margin-left: -220px;
+}
+#btn2{
+background-color: rgb(45, 42, 65);
+color: rgb(255, 255, 255);
+font-size: medium;
+border-radius: 15px 15px 15px 15px;
+height: 35px;
+width: 60px;
+margin-top: 300px;
+margin-left: -230px;
+cursor: pointer;
+border: none;
+}
+#btn2:hover{
+height: 60px;
+width: 85px;
+transition: ease-in 1s;
+transition: ease-out 1s;
+}
+}
